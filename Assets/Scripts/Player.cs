@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
         // ќтримуЇмо вх≥д з клав≥атури (в≥с≥ Horizontal ≥ Vertical)
         moveH = Input.GetAxis("Horizontal");
         moveV = Input.GetAxis("Vertical");
-        rb.AddForce(Vector3.up * 20f);
+        //rb.AddForce(Vector3.up * 20f);
     }
     
 
